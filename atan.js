@@ -1,2 +1,3 @@
-const dayDif = (date1, date2) => Math.ceil(Math.abs(date1.getTime() - date2.getTime()) / 86400000);
-console.log(+"1" +  "1" + "2");
+var DELIM_SIZE = 4;
+const fullName = name || 'buddy';
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
