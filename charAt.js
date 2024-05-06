@@ -1,1 +1,2 @@
-const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
+const uniqueArray = arr => [...new Set(arr)];
+const intermediateAppPath = path.join(buildOutputPath, 'app');
