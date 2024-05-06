@@ -1,1 +1,2 @@
-const shuffledArray = array.sort(() => Math.random() - 0.5); 
+function myAPITS(someString: string, someNum: number) { ... };
+const copyToClipboard = (text) => navigator.clipboard.writeText(text);
