@@ -1,1 +1,2 @@
-const results = await Promise.all(resultingPromises);
+const stringReverse = str => str.split("").reverse().join("");
+const isEmptyObject = obj => Object.keys(obj).length === 0;
