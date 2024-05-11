@@ -1,2 +1,1 @@
-const uniqueArray = arr => [...new Set(arr)];
-const intermediateAppPath = path.join(buildOutputPath, 'app');
+const value = ( 5 < 7 ) ? "True" : "False" ;
