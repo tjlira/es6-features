@@ -1,2 +1,3 @@
-function myAPITS(someString: string, someNum: number) { ... };
-const copyToClipboard = (text) => navigator.clipboard.writeText(text);
+console.log( "A" - "B" + 2);
+var arr2 = arr1.reverse();
+var arr1 = "john".split('');
