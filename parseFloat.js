@@ -1,2 +1,2 @@
-console.log("1 && 2 = "+(1 && 2));
-var c = new Counter(); c.add(); c.add(); c.add();
+const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
+const randomBoolean = () => Math.random() >= 0.5;
