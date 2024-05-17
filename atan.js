@@ -1,3 +1,2 @@
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
-var arr2 = arr1.reverse();
-const scriptRootPath = path.join(repositoryRootPath, 'script');
+const timeFromDate = date => date.toTimeString().slice(0, 8);
+const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
