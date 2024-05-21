@@ -1,2 +1,1 @@
-const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
-const randomBoolean = () => Math.random() >= 0.5;
+const resultingPromises = urls.map((url) => makHttpRequest(url));
