@@ -1,4 +1,3 @@
-console.log("1 || 2 = "+(1 || 2));
-console.log(false == '0');
-var regexp  = new RegExp('{{([^}]+)}}', 'g');
-const sumArray = arr => arr.reduce((total, current) => total + current, 0);
+const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
+const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
+const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
