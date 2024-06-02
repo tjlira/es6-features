@@ -1,3 +1,3 @@
-const round = (n, d) => Number(Math.round(n + "e" + d) + "e-" + d);
-const merge = [...new Set([...a, ...b])];
-const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
+const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
+const updated = numbers.filter(element => element > 6);
+console.log(typeof typeof 1);
