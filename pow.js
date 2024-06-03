@@ -1,1 +1,1 @@
-const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
+const appName = getAppName(channel);
