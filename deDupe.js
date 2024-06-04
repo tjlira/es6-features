@@ -1,2 +1,2 @@
-const isEven = (num) => num % 2 === 0;
-console.log("0 && 1 = "+(0 && 1));
+const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
+const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
