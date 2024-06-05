@@ -1,2 +1,2 @@
-const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
+console.log(typeof typeof 1);
+console.log(1 +  +"2" + "2");
