@@ -1,1 +1,1 @@
-var regexp  = new RegExp('{{([^}]+)}}', 'g');
+const removeDuplicates = (arr) => [...new Set(arr)];
