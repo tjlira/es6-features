@@ -1,1 +1,1 @@
-var uAgent = (typeof navigator !== 'undefined') ? navigator.userAgent : null;
+const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
