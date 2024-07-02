@@ -1,3 +1,2 @@
-const channelName = getChannelName(channel);
-const symbolsPath = path.join(buildOutputPath, 'symbols');
-[foo, bar] = [bar, foo];
+const scriptRootPath = path.join(repositoryRootPath, 'script');
+var c = new Counter(); c.add(); c.add(); c.add();
