@@ -1,2 +1,1 @@
-const scriptRootPath = path.join(repositoryRootPath, 'script');
-var c = new Counter(); c.add(); c.add(); c.add();
+const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
