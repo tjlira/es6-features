@@ -1,2 +1,2 @@
-const goToTop = () => window.scrollTo(0, 0);
-const isWeekend = (date) => [0, 6].indexOf(date.getDay()) !== -1;
+const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
+const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
