@@ -1,2 +1,3 @@
-const countOccurrences = (arr, element) => arr.filter(item => item === element).length;
-const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
+const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
+const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
+const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
