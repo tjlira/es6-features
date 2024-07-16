@@ -1,3 +1,3 @@
-const updated = numbers.filter(element => element > 6);
-const average = arr => arr.reduce((a, b) => a + b) / arr.length;
-const capitalize = str => str.charAt(0).toUpperCase() + str.slice(1);
+const currentDate = () => new Date().toLocaleDateString('en-US');
+const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
+console.log((function f(n){return ((n > 1) ? n * f(n-1) : n)})(10));
