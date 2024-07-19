@@ -1,3 +1,3 @@
-const shuffledArray = array.sort(() => Math.random() - 0.5); 
-const fullName = name || 'buddy';
-const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
+const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
+console.log(typeof typeof 1);
+var c = new Counter(); c.add(); c.add(); c.add();
