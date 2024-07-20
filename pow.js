@@ -1,2 +1,3 @@
-const timeFromDate = date => date.toTimeString().slice(0, 8);
-const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
+console.log(false == '0');
+console.log(+"1" +  "1" + "2");
+var arr1 = "john".split('');
