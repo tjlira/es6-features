@@ -1,2 +1,2 @@
-const channel = getChannel(computedAppVersion);
-const fullName = name || 'buddy';
+const uniqueArray = arr => [...new Set(arr)];
+const isTabInView = () => !document.hidden;
