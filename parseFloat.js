@@ -1,3 +1,2 @@
-const greetings = age < 18 ? 'You are not old enough' : 'You are young!';
-console.log(typeof typeof 1);
-var c = new Counter(); c.add(); c.add(); c.add();
+console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
+console.log(false === '0');
