@@ -1,3 +1,1 @@
-const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
-var regexp  = new RegExp('{{([^}]+)}}', 'g');
-const reversedString = str => str.split('').reverse().join('');
+console.log(1 +  "2" + "2");
